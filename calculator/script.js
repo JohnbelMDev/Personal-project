@@ -37,7 +37,7 @@ multiply.addEventListener('click',() =>{
 
   // console.log(num1);
 var total= num1 * num2;
-// console.log(total);
+ console.log(total);
 
 var result = document.getElementById("result");
 
@@ -85,6 +85,24 @@ else {
 
 });
 
+
+
+var substraction = document.getElementById('substraction');
+substraction.addEventListener('click',() =>{
+  var num1 = parseInt(document.getElementById("num1").value);
+
+  var num2 = parseInt(document.getElementById("num2").value);
+
+  // console.log(num1);
+var total= num1 - num2;
+ console.log(total);
+
+var result = document.getElementById("result");
+
+// innerHTML
+result.innerHTML=total;
+
+});
 
 
 // var multiply = document.getElementById('division');
