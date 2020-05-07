@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<input type="text" id="display">
+<!--br/ adding a horizatonal line -->
+<br/>
+<!-- creating button element with a type of button -->
+<!-- The purpose of id="one" is to be passed as a parameter in order to handle event once the user clicks it  -->
+<button type="button" id="one" value=1>1</button>
+
+<button type="button" id="two" value=2>2</button>
+<button type="button" id="three" value=3>3</button>
+<button type="button" id="four" value=4>4</button>
+<button type="button" id="plus" value = "+">+</button>
+<button type="button" id="multiply" value = "*">*</button>
+<button type="button" id="division" value = "/">/</button>
+<button type="button" id="minus" value = "-" >-</button>
+<button type="button" id="equal" value = "=">=</button>
+<button type="button" id="clear" value = "clear" >clear</button>
+<!-- Adding the script that links to the javacript  -->
+ <script src="script.js"></script>
+ <!-- <script src="multiply.js"></script> -->
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- var one = document.getElementById("one");
+var two = document.getElementById("two");
+var three = document.getElementById("three");
+var four = document.getElementById("four");
+
+var plus = document.getElementById("plus");
+var minus = document.getElementById("minus");
+var equal = document.getElementById("equal");
+var clear = document.getElementById("clear");
+
+one.addEventListener("click", getInput);
+two.addEventListener("click", getInput);
+three.addEventListener("click", getInput);
+four.addEventListener("click", getInput);
+plus.addEventListener("click", getInput);
+minus.addEventListener("click", getInput);
+equal.addEventListener("click", getInput);
+clear.addEventListener("click", getInput);
+
+
+
+var display = []
+
+function getInput(){
+
+  console.log("at the begining")
+
+  if(this.value == "clear"){
+    document.getElementById("display").value = ""
+    display = []
+  }
+
+  if(this.value == "="){
+    console.log("inside =")
+    var exp = display.join("")
+
+    var values = [];
+    var num = "";
+    var total = 0;
+    var ps = "+"
+    for(i=0; i<= exp.length; i++){
+        if(parseInt(exp[i]) == parseInt(exp[i])){
+          num += exp[i]
+        }
+        if(exp[i] == "+"){
+          values.push(parseInt(num));
+          num = "";
+        }
+
+        if(exp[i] == "-"){
+          ps = "-"
+          values.push(parseInt(num));
+          num = "";
+        }
+    }
+    if (ps == "-"){
+        values.push(parseInt(num) * -1);
+    }
+    else{
+      values.push(parseInt(num));
+    }
+
+    document.getElementById("display").value = values.reduce(function(a,b){return a +b;});
+    display = [];
+  }
+
+  else{
+    console.log("inside else")
+    if(this.value == "clear"){
+        document.getElementById("display").value = "";
+    }
+    else{
+      console.log("inside 2nd else. will display: ")
+      console.log(this.value)
+      display.push(this.value)
+      document.getElementById("display").value = display.join("")
+    }
+  }
+
+
+} -->
