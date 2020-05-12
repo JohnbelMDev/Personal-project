@@ -1,14 +1,18 @@
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
 
+/*
 
 /* .btn-group button:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
-} */
-
 /* Add a background color on hover */
 /* .btn-group button:hover {
   background-color: #3e8e41;
 } */
-.container {
+/* .container {
   height: 200px;
   position: relative;
   border: 3px solid green;
@@ -17,9 +21,8 @@ ul.no-bullets {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.vertical-center {
+} */
+/* .vertical-center {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -32,7 +35,7 @@ ul.no-bullets {
   left: 356px;
   font-size
 }
-.orignal {
+.topleftor{
   position: absolute;
   top: 90px;
   left: 556px;
@@ -43,17 +46,8 @@ ul.no-bullets {
   top: 100px;
   left: 646px;
   font-size
-}
-
-
-
-
-
-
-
-
-
-.topleft02{
+} */
+/* .topleft02{
   position: absolute;
   top: 100px;
   left: 890px;
@@ -71,4 +65,4 @@ ul.no-bullets {
   top: 100px;
   left: 1096px;
   font-size
-}
+} */
