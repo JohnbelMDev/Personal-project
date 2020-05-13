@@ -1,0 +1,163 @@
+body
+
+{
+
+  color: #666666;
+  background-color: #f9f8f6;
+  /* The background image will look like what's in the url  */
+  background-image: url();
+  background-position: center;
+  font-family:
+  line-height: 1.4em;
+  margin: 0px;}
+
+
+/* creating class call wrapper  */
+
+.wrapper
+{
+  width: 940px;
+  margin: 20px aitp 20px auto;
+  border:2px solid #0000000;
+  background-color: #ffffff;
+
+
+}
+ /* modifying the header element */
+header{
+  height:160px;
+  background-image: url();
+}
+/* editing the h1 element  */
+h1
+{
+
+  text-indent: inherit;
+  width:940px;
+  heigh:;
+  margin:auto;
+
+}
+
+
+/* editing the nav and footer element */
+nav, footer
+{
+
+clear:both;
+color:
+background-color:inherit;
+height:auto;
+
+}
+
+nav ul
+
+{
+  margin:10px
+  padding:inherit;
+
+}
+
+nav li
+{
+  display:
+  margin-right:auto;
+}
+
+
+
+
+nav li a:hover, nav li a.current{
+  color:
+}
+
+section.courses{
+  float:left;
+  width:659px;
+  border-right: 1px solid #eeeeee;
+}
+
+
+article
+{
+  clear:both;
+  overflow:auto;
+  width:100%;
+}
+
+hgroup
+{
+  margin-top: 40px;
+
+}
+
+figure
+{
+  float: left;
+  width: 290px;
+  padding:5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+figcaption
+{
+  font-size: 90%;
+  text-align: center;
+}
+aside{
+  width:230px;
+  float:left;
+  padding: 0px 0px 0px 20px;
+
+}
+
+aside section a
+{
+  display: block;
+  padding:10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+aside section a: hover
+{
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+a{
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1, h2, h3
+{
+  font-weight:normal;
+}
+h2
+{
+  margin:10px 0px 5px 0px;
+  padding: 0px;
+}
+
+h3
+{
+  margin: 0px 0px 10px 0px;
+  color: #de6581;
+}
+
+aside h2
+
+{
+  padding: 30px 0px 10px 0px;
+  color: #de6581;
+}
+
+
+footer
+{
+  font-size: 80%
+  padding: 7px 0px 0px 20px;
+}
