@@ -36,6 +36,7 @@ function getInput(){
   if(this.value == "clear"){
     //Getting the value and set it an empty string
     document.getElementById("display").value = ""
+    //
     display = [];
     // console.log("I am inside where it says clear on line 40=" + display);
   }
@@ -46,7 +47,7 @@ function getInput(){
 
     var exp = display.join("")
     // console.log("I am inside the equal operator on line 47=" + exp);
-    total += exp;
+    //total += exp;
     // console.log("line 49" + total);
 
 
@@ -66,6 +67,7 @@ function getInput(){
     //looping through lenght
     for(i=0; i<= exp.length; i++){
       //checking if the exp is equal to it's sels
+      //This if is checking wheter or not this is number or not 
         if(parseInt(exp[i]) == parseInt(exp[i])){
           // console.log("I am inside the equal operator on line 67 =" + exp[i]);
 
@@ -75,7 +77,7 @@ function getInput(){
 
           // console.log("I am inside the paseint where it said equal with the other line 72 ex =" + num);
 
-        }
+        }//end checking
         //checking if the exp is equal to the add operator
         if(exp[i] == "+"){
           //pushing the value ontop of num
@@ -135,9 +137,12 @@ function getInput(){
     else{
       values.push(parseInt(num));
       // console.log("inside the first else line 121=" + values);
-      total+=values;
+      //that's storing the value inside of total
+      for(var x=0; x<values.length; x++)
+      {   
+          total= total+values[x];
       // document.getElementById("display").value = values.reduce(function(a,b){return a *b;});
-
+      }
         // total*=values;
 
       // console.log("inside the first else displaying the line 123 num=" + num + total);
@@ -199,6 +204,7 @@ document.getElementById("display").innerHTML = values.reduce(myFunc);
 
   }
   //second else
+  //try taking it out 
   else{
     // console.log("inside 2rd else line 137")
     if(this.value == "clear"){
