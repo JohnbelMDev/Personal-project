@@ -1,0 +1,272 @@
+/* this is saying all element  */
+/* *
+{
+
+} */
+/* This is global a tag that applies to any link on the page  */
+   a
+   {
+     text-decoration: none;
+     color:black;
+   }
+/* changing the color to red when a user is hovering on it  */
+   a:hover
+   {
+     color:red;
+   }
+/* active is when you click and it turns out blue */
+   a:active
+   {
+     color:blue;
+   }
+
+   a:visited
+   {
+
+   }
+
+body
+{
+  background-color:pink;
+  margin:0;
+  /* spacing the text in the browser */
+  line-height: 2.0em;
+  font-size: 14px;
+}
+
+h1
+{
+  color: blue;
+}
+
+
+/* creating a class  */
+.cotain
+{
+  /* use percentance when dealing with containers so it can be responsive also */
+  /* such as when you're closing the space it can close evenly */
+  width:80%;
+  /* setting auto margin to all size and put it in the middle */
+  margin:auto;
+
+}
+
+.button
+{ background-color: black;
+  color:white;
+  padding:10px 15px;
+  width:100%;
+  border: none;
+}
+.button:hover
+{
+  background:red;
+  color:white;
+}
+/* creatin a global */
+.clear
+{
+  clear:both;
+}
+
+
+
+.box-1
+{
+  background-color:white;
+  color:black;
+  /* same as below */
+  border: 5px blue dashed;
+  border-top-style: solid;
+  padding-top:20px;
+  /* this is to give it space from the top */
+  margin-top:50px;
+
+  /* setting a dashed border in the right of the container  */
+  /* border-right: 6px blue dashed;
+  /* setting a dashed border in the left of the container  */
+  /* border-left: 6px blue dashed; */
+  /* setting a dashed border in the top of the container  */
+  /* border-top: 6px blue dashed; */
+  /* setting a dashed border in the bottom of the container  */
+  /* border-bottom: 6px blue dashed; */ */
+
+}
+
+/* This is saying that for every element in the class h1  */
+.box-1 h1
+{
+  font-family:tahoma;;
+  font-weight:900;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: green;
+  /* to create space between the h1 */
+  word-spacing: 2em;
+}
+
+
+
+img{
+  border:3px dotted white;
+  padding:30px;
+  margin:30px 0;
+}
+
+.box-2
+{
+    border:3px dotted black;
+    padding:30px;
+    margin:30px 0;
+
+}
+
+.list
+
+  {
+   border:1px blue dashed;
+   padding:20px;
+   border-radius: 20px;
+
+
+  }
+
+
+  .list h2
+
+  {
+    text-align: center;
+  }
+/* Ul by default has default padding  */
+  .list ul
+
+  {
+     padding:0;
+     padding-left: 20px;
+     /* This is telling the styling not to have any bullet point */
+     list-style: none;
+  }
+
+  .list li
+  {
+    padding-bottom:10px;
+    border-bottom: dotted 1px black;
+  }
+
+
+
+  .Theform
+  {
+    padding:20px;
+
+  }
+
+
+.Theform  .form-group
+  {
+    padding-bottom:15px;
+  }
+
+  .Theform label {
+     display:block;
+
+  }
+
+.Theform input[type="text"]  .Theform textarea{
+  padding:8px;
+  width:100%;
+}
+
+
+.block{
+  /* floating to the left */
+  float: left;
+  width:33.3%;
+  border:none;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+#main-block
+{
+  float:left;
+  /* 70% because to be responsive */
+  width:70%;
+  padding:15px;
+  box-sizing:border-box;
+}
+
+#sidebar
+{
+  float:right;
+  width:30%;
+  background-color: black;
+  color: red;
+  padding:15px;
+  box-sizing: border-box;
+
+}
+
+
+.p-box{
+  padding-right:30px;
+  float:left;
+  width:200px;
+  height:100px;
+  border:1px solid black;
+  margin-top:30px;
+  position:relative;
+  background-image:url('../Users/johnbel/Desktop/All folder/Johnbel Project /Personal-project/Crashcourse/Pictures/100100794_3346363982066875_6163340110562590720_o.jpg');
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center top;
+
+
+}
+
+.p-box h1{
+
+  position:absolute;
+  top:40px;
+
+  /* moving to the right left */
+  left:200px;
+}
+
+
+
+.p-box h2{
+
+  position:absolute;
+  top:40px;
+  bottom:40px;
+  /* moving to the right left */
+  right:100px;
+}
+
+.fix-me{
+  position:fixed;
+  top:400px;
+
+}
+/* creating a pseudo element */
+.The-List li:first-child{
+  background: red;
+
+}
+
+
+/* creating a pseudo element */
+.The-List li:last-child{
+  background: blue;
+}
+
+
+.The-List li:nth-child(5){
+  background: yellow;
+}
+
+
+.The-List li:nth-child(even){
+  background: grey;
+}

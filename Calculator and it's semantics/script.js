@@ -67,7 +67,7 @@ function getInput(){
     //looping through lenght
     for(i=0; i<= exp.length; i++){
       //checking if the exp is equal to it's sels
-      //This if is checking wheter or not this is number or not 
+      //This if is checking wheter or not this is number or not
         if(parseInt(exp[i]) == parseInt(exp[i])){
           // console.log("I am inside the equal operator on line 67 =" + exp[i]);
 
@@ -138,11 +138,11 @@ function getInput(){
       values.push(parseInt(num));
       // console.log("inside the first else line 121=" + values);
       //that's storing the value inside of total
-      for(var x=0; x<values.length; x++)
-      {   
-          total= total+values[x];
-      // document.getElementById("display").value = values.reduce(function(a,b){return a *b;});
-      }
+      // for(var x=0; x<values.length; x++)
+      // {
+      //     total= total+values[x];
+      // // document.getElementById("display").value = values.reduce(function(a,b){return a *b;});
+      // }
         // total*=values;
 
       // console.log("inside the first else displaying the line 123 num=" + num + total);
@@ -204,7 +204,7 @@ document.getElementById("display").innerHTML = values.reduce(myFunc);
 
   }
   //second else
-  //try taking it out 
+  //try taking it out
   else{
     // console.log("inside 2rd else line 137")
     if(this.value == "clear"){

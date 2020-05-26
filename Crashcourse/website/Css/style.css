@@ -1,0 +1,111 @@
+body
+{
+
+  background-color: pink;
+  color: white
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: auto;
+}
+
+
+.container{
+  width;80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#main-header{
+  background-color: coral;
+  color:black;
+}
+
+#navbar
+{
+  background-color: grey;
+  color:white;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+a:hover{
+  background-color: white;
+}
+
+
+#showcase
+{
+  background-image: url('/Users/johnbel/Desktop/All folder/Johnbel Project /Personal-project/Crashcourse/website/Css/100588056_3346250175411589_7377246405561155584_o.jpg');
+  background-position: center right;
+  min-height:300px;
+  margin-bottom: 30px;
+  text-alight: center;
+
+
+}
+
+#showcase h1{
+
+  color:white;
+  font-size:50px;
+  line-height: 1.7em;
+  padding-top: 40px;
+
+}
+
+#main{
+  float:left;
+  width:70%;
+  padding:0 30px;
+  box-sizing:border-box;
+
+}
+
+
+#sidebar{
+  float:right;
+  width:30%;
+  background:pink;
+  color:white;
+  padding:whote'
+  padding:0 30px;
+  box-sizing:border-box;
+
+}
+
+#main-footer{
+  background: black;
+  color:white;
+  text-align: center;
+  padding:20px;
+  margin-top: 40px;
+}
+
+
+@media (max-width:600px){
+  #main{
+    width:100%;
+    float:none;
+  }
+
+
+  #sidebar{
+    width:100%;
+    float:none;
+  }
+}
