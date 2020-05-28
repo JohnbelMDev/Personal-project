@@ -1,0 +1,115 @@
+/*
+.li
+{
+   display: inline; */
+/*     margin: 10px 0; */
+    /* margin-left:9%;
+    padding: 1px;
+
+} */
+
+/* tutorial points */
+ul {
+           list-style-type: none;
+           /* margin: 0; */
+           /* top: 180px; */
+           margin-left:11%;
+           /* margin-top:9%; */
+           padding: 0;
+           letter-spacing: 0.2em;
+           text-decoration: none;
+
+
+           /* margin-bottom: 25px; */
+
+
+
+
+
+
+        }
+        a:link {
+          color: lightgrey;
+          text-decoration: none;
+
+}
+        /* .active {
+           background-color: white;
+           color: grey;
+        } */
+        li {
+           /* border-bottom: 1px solid grey; */
+           display: inline;
+           text-decoration: none;
+
+        }
+
+        .topnav-right {
+         float: right;
+         margin-top: -5.2%;
+
+}
+
+.li2
+{
+   display: inline;
+/*     margin: 10px 0; */
+   margin-left:110%;
+   margin-top:90px;
+    padding: 1px;
+    letter-spacing: 5px;
+
+    /* top: 90px;
+    left: 90px; */
+
+}
+
+.topleft9{
+  position: absolute;
+  top: -8px;
+  left: 30px;
+  font-size: 18px;
+  letter-spacing: 5px;
+
+}
+
+
+
+.topleft10{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+}
+
+
+.center {
+  margin: 80px;
+  width: 50%;
+  border: 3px solid lightgrey;
+  padding: 10px;
+
+}
+
+
+.center0{
+  margin: 80px;
+  width: 50%;
+  border: 3px solid lightgrey;
+  padding: 5px;
+
+}
+
+.topleft7{
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  font-size: 18px;
+}
+
+.topleft8{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+}
