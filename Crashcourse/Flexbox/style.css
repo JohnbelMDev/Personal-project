@@ -1,0 +1,130 @@
+<style>
+.box_long005
+{
+
+ flex-grow: 30;
+  width: 129%;
+  padding:4.3%;
+  justify-content: bottom;
+  background-color: white;
+  border: solid 1px white;
+}
+
+.box_long9
+{
+position: absolute;
+color:blue;
+top: 430px;
+right: 889px;
+
+}
+.center{
+  margin: 50px;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+
+</style>
+
+
+
+
+/* <style>
+@@media (min-width:468px) {
+  .container-1{
+    display: flex;
+    /* align-items:flex-start;
+    align-items: center;
+    flex-direction:colum;
+  } */
+  /* flex-direction: row;
+  align-items: left;
+} */
+
+/* .container-2{
+  display:flex;
+  justify-content:space-between;
+} */
+
+
+}
+
+/* .container-3{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+
+} */
+
+/*
+  .container-1{
+    display: flex;
+    /* align-items:flex-start;
+    align-items: center;
+    flex-direction:colum;
+  } */
+  /* flex-direction: row; */
+/* } */
+
+/* .container-2{
+  display:flex;
+  justify-content:space-between;
+} */
+
+/*
+   .container-1 div, .container-2 div, .container-3 div{
+     border:1px black dashed;
+     padding:10px;
+
+   } */
+/*
+   .container-1 div{ */
+     /* border:1px grey solid;
+     margin:40px
+     padding:10px;
+     width:60%
+
+
+   }
+
+    .box-1 h3{
+      padding-left:10px
+      flex:2;
+      margin:90px */
+
+      /* order:2;
+      position: absolute;
+      top: 40px;
+      left: 199px;
+
+
+    } */
+
+    /* .box-2{
+      flex:1;
+      order:1;
+    }
+
+    .box-3{
+      flex:1;
+      order:3;
+    }
+
+    .container-2-box{
+/* width for the flx */
+/* flex-basis because it's the flex way */
+      /* flex-basix:27%; */
+    /* } */
+
+/* .container-3-box{
+  flex-basis:20%;
+} */
+/*
+.center {
+  top: 90px;
+  left: 16px;
+  font-size: 18px;
+}
+</style> */
